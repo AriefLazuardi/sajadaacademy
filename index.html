@@ -1,0 +1,1919 @@
+<!DOCTYPE html>
+<html lang="en" class="font-tulisan">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sajada Academy</title>
+    <!-- Custom Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom Font -->
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="src/hamburgers.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header
+      id="header"
+      class="box-border flex items-center justify-between bg-[#0E3065] px-3 py-3"
+    >
+      <h1 class="text-3xl text-white lg:px-10 lg:text-5xl">
+        <a href="index.html">SAJADA ACADEMY</a>
+      </h1>
+
+      <nav class="">
+        <div
+          class="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4"
+        >
+          <div class="flex items-center lg:order-2">
+            <!-- Dropdown menu -->
+            <button
+              id="hamburger"
+              data-collapse-toggle="mobile-menu-2"
+              type="button"
+              class="ml-1 inline-flex items-center rounded-lg p-2 text-sm text-gray-500 lg:hidden"
+              aria-controls="mobile-menu-2"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Open main menu</span>
+              <svg
+                class="h-6 w-6"
+                aria-hidden="true"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </button>
+          </div>
+          <div
+            class="absolute left-0 top-20 hidden w-full items-center justify-between lg:static lg:order-1 lg:flex lg:w-auto"
+            id="mobile-menu-2"
+          >
+            <ul
+              id="menu"
+              class="bg-primary h-70 mt-4 flex flex-col rounded-2xl border bg-white p-4 font-medium text-[#FFB707] lg:-mt-2 lg:flex-row lg:border-none lg:bg-[#0E3065] lg:p-0 [&>li]:flex"
+            >
+              <li>
+                <a
+                  href="index.html"
+                  class="block rounded-lg bg-white px-4 py-2 lg:bg-[#0E3065]"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a href="#about" class="block px-4 py-2 lg:bg-[#0E3065]"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a href="#tutorial" class="block px-4 py-2 lg:bg-[#0E3065]"
+                  >Tutorial</a
+                >
+              </li>
+              <li>
+                <a href="#testimonials" class="block px-4 py-2 lg:bg-[#0E3065]"
+                  >Testimoni</a
+                >
+              </li>
+              <li>
+                <a href="#fitur" class="block px-4 py-2 lg:bg-[#0E3065]"
+                  >Fitur</a
+                >
+              </li>
+              <li>
+                <a href="#services" class="block px-4 py-2 lg:bg-[#0E3065]"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a href="#pricing" class="block px-4 py-2 lg:bg-[#0E3065]"
+                  >Pricing</a
+                >
+              </li>
+              <li>
+                <a href="#contact" class="block px-4 py-2 lg:bg-[#0E3065]"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- .navbar -->
+    </header>
+    <!-- End Header -->
+    <section id="home">
+      <div class="bg-[#0E3065] lg:flex">
+        <div
+          class="text-center text-xl font-bold text-white lg:text-left lg:text-3xl"
+          data-aos="zoom-inf-left"
+        >
+          <h2 class="px-5 lg:mt-8 lg:pl-14 lg:pr-80">
+            Sudah..
+            <span class="text-[#FFB707]">TINGGALKAN Saja CARA LAMA</span> Kirim
+            PESAN WA Harus Satu Persatu Secara
+            <span class="text-[#FFB707]">MANUAL</span> ...CAPEEEEK...
+          </h2>
+          <br />
+          <p class="lg:pl-14">
+            TANPA <span class="text-[#FFB707]">RIBET</span> <br />TANPA
+            <span class="text-[#FFB707]">LAMA</span> <br />
+            SERBA <span class="text-[#FFB707]">OTOMATIS</span>
+          </p>
+          <br />
+          <p class="lg:pl-14">
+            Kirim <span class="text-[#FFB707]">Ratusan bahkan Ribuan</span>
+            <br />
+            <span class="text-[#FFB707]">pesan WA</span> Hanya dengan 1x Klik
+            Saja
+          </p>
+        </div>
+        <div
+          class="mx-auto w-2/3 lg:h-full lg:w-full lg:items-end"
+          data-aos="zoom-in"
+          data-aos-duration="500"
+        >
+          <img
+            class="lg:flex-1 lg:flex-wrap"
+            src="assets/img/wa_sender_bussiness.png"
+            alt=""
+          />
+          <div class="bg-[#0E3065] lg:mt-1">
+            <div
+              class="mx-auto flex h-12 w-40 items-center justify-center rounded-full bg-[#FFB707] text-center hover:bg-blue-500 hover:text-white lg:w-72 lg:text-xl"
+            >
+              <a href="#pricing" class="btn-get-started scrollto"
+                ><i class="bi bi-cart-plus-fill"></i
+                ><span style="padding-left: 15px">Beli Sekarang</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#0E3065"
+          fill-opacity="1"
+          d="M0,224L60,218.7C120,213,240,203,360,170.7C480,139,600,85,720,80C840,75,960,117,1080,154.7C1200,192,1320,224,1380,240L1440,256L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"
+        ></path>
+      </svg>
+      <div
+        class="mx-auto -mt-12 items-center text-center font-bold text-[#0E3065]"
+        data-aos="fade-up"
+      >
+        <div class="">
+          <h1 class="text-3xl lg:-mt-40 lg:text-6xl">About Us</h1>
+        </div>
+        <div
+          class="sm-flex-row flex flex-col justify-center px-8 py-4 text-lg lg:mb-10 lg:mt-10 lg:text-4xl"
+        >
+          <h3>
+            Sebuah <span class="text-[#FFB707]">Tool WA Marketing</span> Super
+            Lengkap Yang Bikin
+          </h3>
+          <h3>
+            Kerjaan Anda
+            <span class="text-[#FFB707]">Jadi Serba Otomatis !</span>
+          </h3>
+          <br />
+
+          <h3>
+            Broadcast Massal
+            <span class="text-[#FFB707]"
+              >Tanpa Capek, Tanpa Pusing, dan Pastinya</span
+            >
+          </h3>
+          <h3>
+            <span class="text-[#FFB707]"
+              >Gak Bikin Jari Anda Jadi Keriting</span
+            >
+            Jika Harus Kirim Pesan
+          </h3>
+          <h3 class="text-[#FFB707]">Manual Satu Persatu..</h3>
+          <br />
+
+          <h3>
+            <span class="text-[#FFB707]">WA Sender PRO</span> Adalah
+            <span class="text-[#FFB707]">Solusi</span>
+            Bisnis Anda untuk
+          </h3>
+          <h3>
+            <span class="text-[#FFB707]">Meningkatkan</span> Penjualan
+            <span class="text-[#FFB707]">Berkali Lipat.</span>
+          </h3>
+        </div>
+      </div>
+    </section>
+    <section id="tutorial" class="w-full bg-[#0E3065]" data-aos="fade-up">
+      <div class="container mx-auto bg-[#0E3065]">
+        <div class="py-8 text-center">
+          <h2 class="text-2xl font-bold text-[#FFB707] lg:text-4xl">
+            TUTORIAL WA SenderPRO
+          </h2>
+        </div>
+        <div
+          class="mx-auto flex flex-col items-center justify-center py-5 sm:w-64 xl:w-2/3"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+        >
+          <iframe
+            class="aspect-video w-full xl:h-2/3 xl:w-2/3"
+            src="https://www.youtube.com/embed/qoHvKA1knB4"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <section id="about-us">
+      <div class="">
+        <div class="w-full">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path
+              fill="#0E3065"
+              fill-opacity="1"
+              d="M0,192L60,186.7C120,181,240,171,360,138.7C480,107,600,53,720,64C840,75,960,149,1080,165.3C1200,181,1320,139,1380,117.3L1440,96L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"
+            ></path>
+          </svg>
+        </div>
+        <div
+          class="-mt-8 justify-center text-center text-xl font-bold text-[#0E3065] sm:text-3xl lg:text-4xl"
+          data-aos="fade-up"
+        >
+          <h2>
+            Sebuah <span class="text-[#FFB707]">Tool WA Marketing</span> Super
+            Lengkap Yang Bikin Kerjaan
+          </h2>
+          <h2>
+            Anda <span class="text-[#FFB707]">Jadi Serba Otomatis !</span>
+          </h2>
+          <br />
+          <br />
+
+          <h2>
+            Broadcast Massal Tanpa Capek,
+            <span class="text-[#FFB707]">Tanpa Pusing, dan Pastinya Gak</span>
+          </h2>
+
+          <h2>
+            <span class="text-[#FFB707]">Bikin Jari Anda Jadi Keriting</span>
+            Jika Harus Kirim Pesan Manual Satu
+          </h2>
+          <h2>Persatu..</h2>
+          <br />
+          <br />
+          <h2>
+            <span class="text-[#FFB707]">WA Sender PRO</span> Adalah Solusi
+            Bisnis Anda untuk
+          </h2>
+          <h2>Meningkatkan Penjualan Berkali Lipat.</h2>
+        </div>
+      </div>
+      <div class="wave -mt-4">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#0E3065"
+            fill-opacity="1"
+            d="M0,32L120,74.7C240,117,480,203,720,208C960,213,1200,139,1320,101.3L1440,64L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
+          ></path>
+        </svg>
+      </div>
+    </section>
+
+    <section
+      id="testimonials"
+      class="testimonial bg-[#0E3065] text-[#0E3065] lg:items-center lg:justify-center"
+    >
+      <div class="container bg-[#0E3065] lg:mx-auto" data-aos="fade-up">
+        <div
+          class="text-bold bg-[#0E3065] text-center text-2xl text-[#FFB707] lg:text-4xl"
+        >
+          <h2 class="px-10 font-bold">
+            Berikut ini beberapa cerita dari mereka…
+          </h2>
+        </div>
+        <div
+          class="testimonials-slider swiper mt-10 justify-center bg-[#0E3065] text-center text-[#FFFFFF]"
+        >
+          <div class="swiper-wrapper mt-8">
+            <div class="swiper-slide justify-center px-6">
+              <div class="testimonial-item">
+                <img
+                  src="assets/img/testimoni/hafian.jpg"
+                  class="testimonial-img mx-auto h-16 w-16 rounded-full"
+                  alt=""
+                />
+                <h3 class="font-bold text-[#FFB707]">Hafian Fuad</h3>
+                <h4 class="text-[#FFB707]">Owner Digitalbrand.id</h4>
+                <div class="stars text-yellow-400">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i>
+                </div>
+                <p class="mt-4">
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  Dari pengalaman sejak 2015 saya fokus di bisnis online sampai
+                  sekarang saya juga optimasi digital branding perusahaam klien,
+                  saya insyaAllah ga akan ragu merekomendasikan tool ini. Saya
+                  udah nyoba banyak aplikasi broadcast WA, yang ini kerasa lebih
+                  ringan, fiturnya juga lumayan komplit, pas buat bisnis online
+                  kamu. Bisa buat CRM kamu atau follow up prospek biar naikim
+                  sales kamu. yang paling penting kalo urusan tool WA kalo
+                  menurut saya salah satunya support untuk maintance. Saya kenal
+                  mas Metri Udah lama, InsyaALLAH kalo support di group, beliaun
+                  enak dan friendly banget, bahkan buat newbie atau yang gaptek.
+                  Recommended.
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide justify-center px-6">
+              <div class="testimonial-item">
+                <img
+                  src="assets/img/testimoni/yusuf_rohman.jpg"
+                  class="testimonial-img mx-auto h-16 w-16 rounded-full"
+                  alt=""
+                />
+                <h3 class="font-bold text-[#FFB707]">Yusuf Rohman</h3>
+                <h4 class="text-[#FFB707]">Praktisi TalentsMapping.id</h4>
+                <div class="stars mt-4 text-yellow-400">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i>
+                </div>
+                <p class="mt-4">
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  *WA SENDER PRO* ini MUDAH digunakan, membuat proses Edukasi,
+                  promosi dan follow up jadi MENYENANGKAN, Cukup dengan 3 Klik
+                  saja Anda bisa mengirim puluhan bahkan ratusan ke list WA
+                  customer maupun calon customer Anda, loh kok calon customer
+                  juga, iya soalnya kabar baiknya kita ga perlu save contact
+                  satu per satu calon customer kita, bisa langsung kirim pesan
+                  massal Tinggal Import Contact ==> Buat Massage ==> Kirim,
+                  Selanjutnya Anda tinggal tunggu Prosesnya selesai bisa sambil
+                  ngopi-ngopi atau ngemil mendoan Udah gitu kalau males balesin
+                  pesan customer yang bejibun udah ada fitur Auto Reply nya
+                  juga, tinggal setting sekali setelah itu biarkan robot yang
+                  bekerja Insya Allah ndk nyesel sih beli tools ini, kepake
+                  banget untuk memudahkna menggunakaan Whatsapp sebagai paltform
+                  jualan kita
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img
+                  src="assets/img/testimoni/hafian.jpg"
+                  class="testimonial-img mx-auto h-16 w-16 rounded-full"
+                  alt=""
+                />
+                <h3 class="font-bold text-[#FFB707]">Hafian Fuad</h3>
+                <h4 class="text-[#FFB707]">Owner Digitalbrand.id</h4>
+                <div class="stars text-yellow-400">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i
+                  ><i class="bi bi-star-fill"></i>
+                </div>
+                <p class="mt-5">
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  Dari pengalaman sejak 2015 saya fokus di bisnis online sampai
+                  sekarang saya juga optimasi digital branding perusahaam klien,
+                  saya insyaAllah ga akan ragu merekomendasikan tool ini. Saya
+                  udah nyoba banyak aplikasi broadcast WA, yang ini kerasa lebih
+                  ringan, fiturnya juga lumayan komplit, pas buat bisnis online
+                  kamu. Bisa buat CRM kamu atau follow up prospek biar naikim
+                  sales kamu. yang paling penting kalo urusan tool WA kalo
+                  menurut saya salah satunya support untuk maintance. Saya kenal
+                  mas Metri Udah lama, InsyaALLAH kalo support di group, beliaun
+                  enak dan friendly banget, bahkan buat newbie atau yang gaptek.
+                  Recommended.
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+          </div>
+          <div class="swiper-pagination -mt-20"></div>
+        </div>
+        <br />
+      </div>
+    </section>
+    <!-- End Testimonials Section -->
+
+    <section id="clients" class="clients section-bg">
+      <div class="container mx-auto mt-8">
+        <div class="flex-col" data-aos="zoom-in">
+          <div class="justify-center text-center">
+            <h3
+              class="text-2xl font-bold text-[#0E3065] lg:mb-20 lg:mt-10 lg:px-32 lg:text-5xl"
+            >
+              Dipercaya <span class="text-[#FFB707]">123.000+</span> Marketers,
+              Entrepreneurs, dan
+              <span class="text-[#FFB707]">Brand Ternama di Indonesia</span>
+            </h3>
+          </div>
+          <div
+            class="lg:h2/3 mx-auto grid h-96 w-96 grid-cols-2 items-center justify-between lg:grid lg:w-2/3 lg:grid-cols-4 lg:items-center lg:justify-between lg:px-16"
+          >
+            <div class="">
+              <img src="assets/img/clients/ace.png" class="img-fluid" alt="" />
+            </div>
+
+            <div class="">
+              <img
+                src="assets/img/clients/telkom.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+
+            <div class="">
+              <img
+                src="assets/img/clients/airasia.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+
+            <div class="">
+              <img
+                src="assets/img/clients/ayam1000rasa.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+
+            <div class="">
+              <img
+                src="assets/img/clients/digitalbrand.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+
+            <div class="">
+              <img
+                src="assets/img/clients/apotekdesa.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <div class="">
+              <img
+                src="assets/img/clients/sangkanparan.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+            <div class="">
+              <img
+                src="assets/img/clients/huniankita.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Cliens Section -->
+    <!-- growth Section -->
+    <section class="mt-40 lg:-mt-64" data-aos="fade-up">
+      <div class="h-full">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#0E3065"
+            fill-opacity="1"
+            d="M0,256L120,261.3C240,267,480,277,720,277.3C960,277,1200,267,1320,261.3L1440,256L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
+          ></path>
+        </svg>
+      </div>
+      <div
+        class="items-center justify-center bg-[#0E3065] text-center text-white"
+      >
+        <div class="px-8 text-2xl font-bold lg:text-6xl">
+          <h2>
+            Ingin Bisnis Anda
+            <span class="text-[#FFB707]">Tumbuh Lebih Cepat</span>
+          </h2>
+          <h2 class="text-[#FFB707]">Berkali kali lipat</h2>
+        </div>
+        <p class="text-medium mt-12 lg:px-40 lg:text-4xl">
+          Anda seorang pebisnis online bisa banget memanfaatkan database
+          konsumen yang Anda punya. Dengan menggunakan<span
+            class="font-bold text-[#FFB707]"
+          >
+            WA Sender PRO</span
+          >
+          Anda bisa memberikan penawaran menarik kepada konsumenya dengan
+          melakukan<span class="font-bold text-[#FFB707]">
+            cross selling dan hard selling</span
+          >
+        </p>
+      </div>
+      <div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#0E3065"
+            fill-opacity="1"
+            d="M0,288L120,250.7C240,213,480,139,720,138.7C960,139,1200,213,1320,250.7L1440,288L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"
+          ></path>
+        </svg>
+      </div>
+    </section>
+    <!--introduce Section -->
+    <section class="-mt-10" data-aos="fade-up">
+      <div
+        class="items-center justify-center text-center text-xl text-[#0E3065]"
+      >
+        <h2 class="py-8 text-2xl font-bold lg:-mt-16 lg:text-7xl">
+          Memperkenalkan
+        </h2>
+      </div>
+      <div
+        class="items-center justify-center px-8 text-center text-3xl font-bold text-[#0E3065] lg:px-36 lg:text-4xl"
+      >
+        <p>
+          <span class="text-[#FFB707]">WA Sender PRO</span> Adalah Solusi Bisnis
+          Anda untuk
+          <span class="text-[#FFB707]"
+            >Meningkatkan Penjualan Berkali Lipat.</span
+          >
+        </p>
+      </div>
+      <div class="mx-auto lg:w-2/5" data-aos="zoom-in" data-aos-duration="1500">
+        <img src="assets/img/wa_sender_bussiness.png" alt="" />
+      </div>
+      <div
+        class="items-center justify-center px-8 text-center font-medium lg:px-32 lg:text-2xl"
+      >
+        <p class="font-semibold">
+          Solusi Kirim Pesan WhatsApp Terbaik Dengan
+          <span class="text-[#FFB707]">Bot Canggih</span> Untuk Mengirim Pesan,
+          Balasan Pesan Otomatis, Memfilter Nomor Kontak WhatsApp
+          <span class="text-[#FFB707]">Dengan Cepat.</span>
+        </p>
+        <br />
+        <p class="font-semibold">
+          “Dengan TOOLS <span class="text-[#FFB707]">WA SENDER PRO</span> Anda
+          dapat melakukan promosi dan
+          <span class="text-[#FFB707]">meningkatkan penjualan</span> dengan
+          <span class="text-[#FFB707]">sangat mudah</span> hanya dengan
+          <span class="text-[#FFB707]">satu klik</span>
+          tanpa masalah.”
+        </p>
+      </div>
+      <div class="-mt-16">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#0E3065"
+            fill-opacity="1"
+            d="M0,160L120,186.7C240,213,480,267,720,288C960,309,1200,299,1320,293.3L1440,288L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
+          ></path>
+        </svg>
+      </div>
+    </section>
+
+    <!-- fitur section -->
+    <section id="fitur" class="bg-[#0E3065] text-center text-white">
+      <div data-aos="fade-up">
+        <h2 class="text-xl font-semibold lg:text-3xl">Fitur Menarik Lainnya</h2>
+      </div>
+      <div data-aos="fade-up">
+        <h3 class="text-4xl font-extrabold lg:mt-7 lg:text-6xl">
+          Banyak <span class="text-[#FFB707]">Fitur Hebat</span>
+        </h3>
+      </div>
+      <div
+        class="h-5/6 font-semibold text-[#0E3065] lg:grid lg:grid-cols-4 lg:px-5"
+      >
+        <div
+          class="mx-auto mt-12 h-3/4 w-3/4 bg-white lg:h-64"
+          data-aos="zoom-in"
+          data-aos-duration="500"
+        >
+          <div class="mx-auto w-72 items-center pt-8 lg:w-60">
+            <img src="assets/img/fitur/1.png" alt="" class="" />
+          </div>
+          <div class="h-16 pt-4 text-xl lg:pt-3">
+            <p>Multi Perangkat/Akun</p>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div
+          class="mx-auto mt-12 h-3/4 w-3/4 bg-white lg:h-64"
+          data-aos="zoom-in"
+          data-aos-duration="600"
+        >
+          <div class="mx-auto w-72 items-center pt-8 lg:w-60">
+            <img src="assets/img/fitur/2.png" alt="" class="" />
+          </div>
+          <div class="h-16 pt-4 text-xl lg:pt-3">
+            <p>Multi-Jendela</p>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div
+          class="mx-auto mt-12 h-3/4 w-3/4 bg-white lg:h-64"
+          data-aos="zoom-in"
+          data-aos-duration="700"
+        >
+          <div class="mx-auto w-72 items-center pt-8 lg:w-60">
+            <img src="assets/img/fitur/3.png" alt="" class="" />
+          </div>
+          <div class="h-16 pt-4 text-xl lg:pt-3">
+            <p>Tag variabel</p>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div
+          class="mx-auto mt-12 h-3/4 w-3/4 bg-white lg:h-64"
+          data-aos="zoom-in"
+          data-aos-duration="800"
+        >
+          <div class="mx-auto w-72 items-center pt-8 lg:w-60">
+            <img src="assets/img/fitur/4.png" alt="" class="" />
+          </div>
+          <div class="h-16 pt-4 text-xl lg:pt-3">
+            <p>Waktu Tunda Acak</p>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div
+          class="mx-auto mt-12 h-3/4 w-3/4 bg-white lg:h-64"
+          data-aos="zoom-in"
+          data-aos-duration="900"
+        >
+          <div class="mx-auto w-72 items-center pt-8 lg:w-60">
+            <img src="assets/img/fitur/5.png" alt="" class="" />
+          </div>
+          <div class="h-16 pt-4 text-xl lg:pt-3">
+            <p>Multi Pesan & Spintext</p>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div
+          class="mx-auto mt-12 h-3/4 w-3/4 bg-white lg:h-64"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+        >
+          <div class="mx-auto w-72 items-center pt-8 lg:w-60">
+            <img src="assets/img/fitur/6.png" alt="" class="" />
+          </div>
+          <div class="h-16 pt-4 text-xl lg:pt-3">
+            <p>Pesan Massal di Grup</p>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div
+          class="mx-auto mt-12 h-3/4 w-3/4 bg-white lg:h-64"
+          data-aos="zoom-in"
+          data-aos-duration="1100"
+        >
+          <div class="mx-auto w-72 items-center pt-8 lg:w-60">
+            <img src="assets/img/fitur/7.png" alt="" class="" />
+          </div>
+          <div class="h-16 pt-4 text-xl lg:pt-3">
+            <p>Sistem Anti Pemblokiran AI</p>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div
+          class="mx-auto mt-12 h-3/4 w-3/4 bg-white lg:h-64"
+          data-aos="zoom-in"
+          data-aos-duration="1200"
+        >
+          <div class="mx-auto w-72 items-center pt-8 lg:w-60">
+            <img src="assets/img/fitur/8.png" alt="" class="" />
+          </div>
+          <div class="h-16 pt-4 text-xl lg:pt-3">
+            <p>Sistem Balasan Otomatis</p>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div
+          class="mx-auto mt-12 h-3/4 w-3/4 bg-white lg:h-64"
+          data-aos="zoom-in"
+          data-aos-duration="1300"
+        >
+          <div class="mx-auto w-72 items-center pt-8 lg:w-60">
+            <img src="assets/img/fitur/9.png" alt="" class="" />
+          </div>
+          <div class="h-16 pt-4 text-xl lg:pt-3">
+            <p>Kirim File Video MP4</p>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div
+          class="mx-auto mt-12 h-3/4 w-3/4 bg-white lg:h-64"
+          data-aos="zoom-in"
+          data-aos-duration="1400"
+        >
+          <div class="mx-auto w-72 items-center pt-8 lg:w-60">
+            <img src="assets/img/fitur/10.png" alt="" class="" />
+          </div>
+          <div class="h-16 pt-4 text-xl lg:pt-3">
+            <p>Generator Nomor</p>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div
+          class="mx-auto mt-12 h-3/4 w-3/4 bg-white lg:h-64"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+        >
+          <div class="mx-auto w-72 items-center pt-8 lg:w-60">
+            <img src="assets/img/fitur/11.png" alt="" class="" />
+          </div>
+          <div class="h-16 pt-4 text-xl lg:pt-3">
+            <p>Nomor Penyaringan</p>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div
+          class="m-12 mx-auto mt-12 h-3/4 w-3/4 bg-white lg:h-64"
+          data-aos="zoom-in"
+          data-aos-duration="1600"
+        >
+          <div class="mx-auto w-72 items-center pt-8 lg:w-60">
+            <img src="assets/img/fitur/12.png" alt="" class="" />
+          </div>
+          <div class="h-16 pt-4 text-xl lg:pt-3">
+            <p>Waktu Tunda Acak</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- bonus section  -->
+    <section id="bonus" class="-mt-12 flex-col text-white">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#0E3065"
+          fill-opacity="1"
+          d="M0,160L48,160C96,160,192,160,288,149.3C384,139,480,117,576,96C672,75,768,53,864,74.7C960,96,1056,160,1152,186.7C1248,213,1344,203,1392,197.3L1440,192L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+        ></path>
+      </svg>
+      <div
+        class="mb-12 items-center justify-center text-center text-3xl font-bold lg:-mt-48"
+      >
+        <h1 class="text-[#0E3065] lg:text-5xl">
+          Dapatkan <span class="text-[#FFB707]">Bonus</span> Istimewa
+        </h1>
+      </div>
+      <div class="lg:mx-12 lg:grid lg:grid-cols-4">
+        <div
+          class="mx-auto h-72 w-96 items-center justify-between bg-[#0E3065] pt-5 text-center lg:my-8 lg:w-80"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+        >
+          <div class="">
+            <img src="assets/img/wa_sender_bussiness.png" alt="" />
+          </div>
+          <div class="px-12 text-xl">
+            <h2>
+              Aplikasi <span class="text-[#FFB707]">WA SenderPro LIFETIME</span>
+            </h2>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div
+          class="mx-auto mt-8 h-72 w-96 items-center justify-center bg-[#0E3065] pt-5 text-center lg:w-80"
+          data-aos="zoom-in"
+          data-aos-duration="1200"
+        >
+          <div class="flex">
+            <img class="mx-auto w-2/5" src="assets/img/freelancer.png" alt="" />
+          </div>
+          <div class="mt-8 px-12 text-xl">
+            <h2>
+              Video Pembelajaran
+              <span class="text-[#FFB707]">WA SENDERPRO</span> Step by Step
+            </h2>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div
+          class="mx-auto mt-8 h-72 w-96 items-center justify-between bg-[#0E3065] pt-5 text-center lg:w-80"
+          data-aos="zoom-in"
+          data-aos-duration="1400"
+        >
+          <div class="-mt-3">
+            <img
+              class="mx-auto w-2/5"
+              src="assets/img/wa_marketing.png"
+              alt=""
+            />
+          </div>
+          <div class="px-12 text-xl">
+            <h2>
+              Video
+              <span class="text-[#FFB707]">Materi Jago WhatApps Marketing</span>
+              Rp 299.000
+            </h2>
+          </div>
+        </div>
+        <!-- 4 -->
+        <div
+          class="mx-auto mt-8 h-72 w-96 items-center justify-between bg-[#0E3065] pt-5 text-center lg:w-80"
+          data-aos="zoom-in"
+          data-aos-duration="1600"
+        >
+          <div class="">
+            <img
+              class="mx-auto w-2/5"
+              src="assets/img/social_strategi.png"
+              alt=""
+            />
+          </div>
+          <div class="text-xl">
+            <h2>
+              <span class="text-[#FFB707]">Sosial Media Strategy</span> Rp
+              299.000
+            </h2>
+          </div>
+        </div>
+        <!-- 5 -->
+        <div
+          class="mx-auto mt-8 h-72 w-96 items-center justify-between bg-[#0E3065] pt-5 text-center lg:w-80"
+          data-aos="zoom-in"
+          data-aos-duration="1800"
+        >
+          <div class="">
+            <img
+              class="mx-auto w-32"
+              src="assets/img/DATABASE-SUPPLIER.png"
+              alt=""
+            />
+          </div>
+          <div class="mt-8 px-12 text-xl">
+            <h2>
+              <span class="text-[#FFB707]"
+                >Data Supplier Seluruh Indonesia</span
+              >
+              Rp 149.000
+            </h2>
+          </div>
+        </div>
+        <!-- 6 -->
+        <div
+          class="mx-auto mt-8 h-72 w-96 items-center justify-between bg-[#0E3065] pt-5 text-center lg:w-80"
+          data-aos="zoom-in"
+          data-aos-duration="2000"
+        >
+          <div class="">
+            <img
+              class="mx-auto w-2/5"
+              src="assets/img/desain_promosi.png"
+              alt=""
+            />
+          </div>
+          <div class="text-xl">
+            <h2>
+              <span class="text-[#FFB707]"
+                >500 Desain Konten Promosi Terkece langsung edit</span
+              >
+              Rp 199.000
+            </h2>
+          </div>
+        </div>
+        <!-- 7 -->
+        <div
+          class="mx-auto mt-8 h-72 w-96 items-center justify-between bg-[#0E3065] pt-5 text-center lg:w-80"
+          data-aos="zoom-in"
+          data-aos-duration="2200"
+        >
+          <div class="">
+            <img
+              class="mx-auto w-2/5"
+              src="assets/img/personal_branding.png"
+              alt=""
+            />
+          </div>
+          <div class="mt-4 text-xl">
+            <h2>
+              <span class="text-[#FFB707]">Personal Branding</span> Rp 149.000
+            </h2>
+          </div>
+        </div>
+        <!-- 8 -->
+        <div
+          class="mx-auto mt-8 h-72 w-96 items-center justify-between bg-[#0E3065] pt-5 text-center lg:w-80"
+          data-aos="zoom-in"
+          data-aos-duration="2400"
+        >
+          <div class="">
+            <img
+              class="w-5/5 mx-auto"
+              src="assets/img/link_Grup_wa.png"
+              alt=""
+            />
+          </div>
+          <div class="mt-4 text-xl">
+            <h2>
+              <span class="text-[#FFB707]">9500 Link GRUP WA </span> Rp 99.000
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div class="lg:-mt-14">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#0E3065"
+            fill-opacity="1"
+            d="M0,128L48,138.7C96,149,192,171,288,192C384,213,480,235,576,234.7C672,235,768,213,864,197.3C960,181,1056,171,1152,154.7C1248,139,1344,117,1392,106.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+          ></path>
+        </svg>
+      </div>
+    </section>
+    <!-- pricing -->
+    <section id="pricing" class="bg-[#0E3065]">
+      <div class="mx-auto max-w-screen-xl px-4 py-8 lg:px-6 lg:py-16">
+        <div
+          class="mx-auto mb-8 max-w-screen-lg text-center lg:mb-12"
+          data-aos="zoom-in"
+          data-aos-duration="1500"
+        >
+          <h2
+            class="mb-4 text-4xl font-extrabold tracking-tight text-[#FFB707] lg:-mt-20 lg:text-6xl"
+          >
+            Harga WA Sender
+          </h2>
+          <p class="mb-5 font-bold text-white sm:text-3xl lg:text-2xl">
+            Saya Ingin Beli Berapa Harga WA SENDER PRO ?
+          </p>
+        </div>
+        <div
+          class="space-y-8 sm:gap-6 lg:grid lg:grid-cols-3 lg:space-y-0 xl:gap-10"
+        >
+          <!-- Pricing Card -->
+          <div
+            class="mx-auto flex max-w-lg flex-col rounded-lg border border-gray-100 bg-[#F6F6F6] p-14 text-center text-[#0E3065] shadow"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <div
+              class="border-b-4 border-t-4 border-solid border-[#FFB707] lg:-mx-12"
+            >
+              <h3 class="text-4xl font-extrabold text-[#0E3065] lg:mt-5">
+                LISENSI 1 TAHUN
+              </h3>
+              <p class="mb-8 text-xl font-semibold text-[#FFB707] lg:text-lg">
+                PRO APLIKASI WA SENDERPRO
+              </p>
+            </div>
+
+            <p class="mb-7 mt-8 text-xl font-bold text-[#0E3065] lg:mt-11">
+              BONUS
+            </p>
+            <!-- List -->
+            <ul role="list" class="mb-8 space-y-4 text-left font-semibold">
+              <li>
+                <i class="bi bi-check-circle-fill text-[#0E3065]"></i> Aplikasi
+                WA SenderPRO
+                <span class="font-bold text-[#FFB707]">1 Tahun</span>
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill text-[#0E3065]"></i> Video
+                Pembelajaran WA SENDERPRO
+                <span class="font-bold text-[#FFB707]">Step by Step</span>
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill text-[#0E3065]"></i> Video
+                Materi
+                <span class="font-bold text-[#FFB707]"
+                  >Jago WhatApps Marketing</span
+                >
+                <span class="font-bold text-[#FFB707]">Rp 299.000</span>
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill text-[#0E3065]"></i> Social
+                Media Stategy
+                <span class="font-bold text-[#FFB707]">Rp 299.000</span>
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill text-[#0E3065]"></i> Video
+                Materi Membangun
+                <span class="font-bold text-[#FFB707]">Personal Branding</span>
+                supaya di kenal banyak pelanggan
+                <span class="font-bold text-[#FFB707]">Rp 199.000</span>
+              </li>
+              <li>
+                <i class="bi bi-x-circle-fill text-[#0E3065]"></i> 9500 Link
+                Grup WhatApps
+                <span class="font-bold text-[#FFB707]">Rp 99.000</span>
+              </li>
+              <li>
+                <i class="bi bi-x-circle-fill text-[#0E3065]"></i>
+                <span class="font-bold text-[#FFB707]">Data Supplier</span>
+                Seluruh Indonesia
+                <span class="font-bold text-[#FFB707]">Rp 149.000</span>
+              </li>
+              <li>
+                <i class="bi bi-x-circle-fill text-[#0E3065]"></i> 500 Desain
+                Konten Promosi Terkece langsung edit
+                <span class="font-bold text-[#FFB707]">Rp 199.000</span>
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill text-[#0E3065]"></i>
+                <span class="font-bold text-[#FFB707]"> FREE UPDATE </span>
+              </li>
+            </ul>
+            <div class="flex items-baseline justify-center lg:mt-12">
+              <span class="mr-2 text-xl font-extrabold text-[#0E3065]"
+                >TOTAL BONUS
+                <span class="font-bold text-[#FFB707]">Rp 797.000</span></span
+              >
+            </div>
+            <div class="flex items-baseline justify-center">
+              <span
+                class="my-4 mr-2 text-2xl font-extrabold text-[#0E3065] line-through"
+                >Rp 298.000</span
+              >
+            </div>
+            <div class="my-6 flex items-baseline justify-center">
+              <span class="mr-2 text-3xl font-extrabold text-[#FFB707]"
+                >BEST TO PRICE</span
+              >
+            </div>
+            <div class="my-6 flex items-baseline justify-center">
+              <span class="mr-2 text-3xl font-extrabold text-[#0E3065]"
+                >Rp 149.000</span
+              >
+            </div>
+            <a
+              href="https://digitalexpress.sajadadigital.com/checkout/paket-2"
+              class="items-center rounded-3xl bg-[#0E3065] px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-500"
+              target="_blank"
+              ><i class="bi bi-cart-plus-fill pr-3"></i>Beli Sekarang</a
+            >
+          </div>
+          <!-- Pricing Card -->
+          <div
+            class="mx-auto flex max-w-lg flex-col rounded-lg border border-gray-100 bg-[#F6F6F6] p-14 text-center text-[#0E3065] shadow"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <div
+              class="border-b-4 border-t-4 border-solid border-[#FFB707] lg:-mx-12"
+            >
+              <h3 class="text-4xl font-extrabold text-[#0E3065] lg:mt-5">
+                LISENSI LIFETIME
+              </h3>
+              <p class="mb-8 text-xl font-extrabold text-[#FFB707]">
+                SEKALI BAYAR FREE SEMUA
+              </p>
+            </div>
+
+            <p
+              class="mb-7 mt-8 text-xl font-bold text-[#0E3065] lg:mb-6 lg:mt-12"
+            >
+              BONUS
+            </p>
+            <!-- List -->
+            <ul role="list" class="mb-8 space-y-4 text-left font-semibold">
+              <li>
+                <i class="bi bi-check-circle-fill text-[#0E3065]"></i> Aplikasi
+                WA SenderPRO
+                <span class="font-bold text-[#FFB707]">LIFETIME</span>
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill text-[#0E3065]"></i>
+                <span class="font-bold text-[#FFB707]">
+                  Video Pembelajaran</span
+                >
+                WA SENDERPRO Step by Step
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill text-[#0E3065]"></i> Video
+                Materi Jago WhatApps Marketing
+                <span class="font-bold text-[#FFB707]">Rp 299.000</span>
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill text-[#0E3065]"></i> Social
+                Media Stategy
+                <span class="font-bold text-[#FFB707]">Rp 299.000</span>
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill text-[#0E3065]"></i> Video
+                Materi Membangun Personal Branding supaya di kenal banyak
+                pelanggan
+                <span class="font-bold text-[#FFB707]">Rp 199.000</span>
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill text-[#0E3065]"></i> 9500 Link
+                Grup WhatApps
+                <span class="font-bold text-[#FFB707]">Rp 99.000</span>
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill text-[#0E3065]"></i> Data
+                Supplier Seluruh Indonesia
+                <span class="font-bold text-[#FFB707]">Rp 149.000</span>
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill text-[#0E3065]"></i> 500
+                Desain Konten Promosi Terkece langsung edit
+                <span class="font-bold text-[#FFB707]">Rp 199.000</span>
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill text-[#0E3065]"></i>
+                <span class="font-bold text-[#FFB707]">FREE UPDATE</span>
+              </li>
+            </ul>
+            <div class="flex items-baseline justify-center lg:mt-12">
+              <span class="text-xl font-extrabold text-[#0E3065]"
+                >TOTAL BONUS
+                <span class="font-bold text-[#FFB707]">Rp 1.244.000</span></span
+              >
+            </div>
+            <div class="flex items-baseline justify-center">
+              <span
+                class="my-4 mr-2 text-2xl font-extrabold text-[#0E3065] line-through"
+                >Rp 894.000</span
+              >
+            </div>
+            <div class="my-6 flex items-baseline justify-center">
+              <span class="mr-2 text-3xl font-extrabold text-[#FFB707]"
+                >RECOMENDED</span
+              >
+            </div>
+            <div class="my-6 flex items-baseline justify-center">
+              <span class="text-[#FFB707 ] mr-2 text-3xl font-extrabold"
+                >Rp 249.000</span
+              >
+            </div>
+            <a
+              href="https://digitalexpress.sajadadigital.com/checkout/paket-3"
+              class="items-center rounded-3xl bg-[#0E3065] px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-500 lg:mt-0"
+              target="_blank"
+              ><i class="bi bi-cart-plus-fill pr-3"></i>Beli Sekarang</a
+            >
+          </div>
+          <!-- Pricing Card -->
+          <div
+            class="mx-auto flex max-w-lg flex-col rounded-lg border border-gray-100 bg-[#F6F6F6] p-14 text-center text-[#0E3065] shadow"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <div
+              class="border-b-4 border-t-4 border-solid border-[#FFB707] lg:-mx-12"
+            >
+              <h3 class="text-3xl font-extrabold text-[#0E3065] lg:mt-5">
+                PROGRAM CORPORATE
+              </h3>
+              <p class="mb-4 text-base font-bold text-[#FFB707] lg:mx-0">
+                Team kami akan Mengajarkan OFFLINE langsung ke tempat Anda
+                (Khusus Pontianak)
+              </p>
+            </div>
+
+            <p class="mb-7 text-xl font-bold text-[#0E3065] lg:mt-11">
+              PEMBELAJARAN OFFLINE
+            </p>
+            <!-- List -->
+            <ul role="list" class="mb-8 space-y-4 text-left font-semibold">
+              <li>
+                <i class="bi bi-check-circle-fill text-[#0E3065]"></i> Cara
+                <span class="font-bold text-[#FFB707]">Mengelola Database</span>
+                Pelanggan Anda
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill text-[#0E3065]"></i> Cara
+                <span class="text-[#FFB707]">Merapikan Database</span> Siap
+                Blast
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill text-[#0E3065]"></i>
+                <span class="font-bold text-[#FFB707]">
+                  Penggunaan Aplikasi</span
+                >
+                dari
+                <span class="font-bold text-[#FFB707]">0 sampai bisa</span>
+              </li>
+              <li>
+                <i class="bi bi-check-circle-fill text-[#0E3065]"></i> Cara
+                Mendapatkan
+                <span class="font-bold text-[#FFB707]">Database Baru</span>
+              </li>
+            </ul>
+            <div class="lg:mt-10">
+              <p class="text-xl font-bold text-[#0E3065] lg:mb-3">BONUS</p>
+              <ul role="list" class="mb-8 space-y-4 text-left font-semibold">
+                <li>
+                  <i class="bi bi-check-circle-fill text-[#0E3065]"></i>
+                  Mendapatkan
+                  <span class="font-bold text-[#FFB707]">Bonus</span> Seperti
+                  <span class="font-bold text-[#FFB707]">Paket LIFETIME</span>
+                </li>
+              </ul>
+            </div>
+            <div class="lg:mt-44">
+              <div class="flex items-baseline justify-center lg:mt-2">
+                <span
+                  class="mr-2 text-xl font-extrabold text-[#0E3065] lg:text-2xl"
+                >
+                  Harga Normal
+                  <span class="text-[#FFB707]">Rp 299.000</span>/User</span
+                >
+              </div>
+              <div class="my-8 flex items-baseline justify-center lg:mt-12">
+                <span class="mr-2 text-3xl font-extrabold text-[#FFB707]"
+                  >HARGA SPECIAL</span
+                >
+              </div>
+              <div class="flex items-baseline justify-center">
+                <span
+                  class="-mt-5 mr-2 text-xl font-extrabold text-[#0E3065] lg:-mt-8"
+                  >(Minimal 5 User)</span
+                >
+              </div>
+              <div class="my-6 flex items-baseline justify-center lg:mt-6">
+                <span class="mr-2 text-3xl font-extrabold text-[#0E3065]"
+                  >Rp 1.250.000</span
+                >
+              </div>
+            </div>
+            <a
+              href="https://digitalexpress.sajadadigital.com/checkout/paket-3"
+              class="items-center rounded-3xl bg-[#0E3065] px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-500"
+              target="_blank"
+              ><i class="bi bi-cart-plus-fill pr-3"></i>Beli Sekarang</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Pembayaran Section ======= -->
+    <section id="pembayaran" class="clients section-bg">
+      <div class="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#0E3065"
+            fill-opacity="1"
+            d="M0,256L60,224C120,192,240,128,360,101.3C480,75,600,85,720,101.3C840,117,960,139,1080,138.7C1200,139,1320,117,1380,106.7L1440,96L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"
+          ></path>
+        </svg>
+      </div>
+      <div class="container mt-10 items-center justify-center lg:-mt-24">
+        <div class="row" data-aos="zoom-in">
+          <div class="-mt-2 h-10">
+            <img
+              class="mx-auto w-2/3 lg:w-3/5"
+              src="assets/img/clients/bank.png"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#F6F6F6"
+          fill-opacity="1"
+          d="M0,32L60,53.3C120,75,240,117,360,154.7C480,192,600,224,720,224C840,224,960,192,1080,154.7C1200,117,1320,75,1380,53.3L1440,32L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- ======= garansi Section ======= -->
+    <section id="garansi" class="garansi">
+      <div
+        class="container bg-[#F6F6F6] text-center text-[#0E3065]"
+        data-aos="zoom-in"
+      >
+        <div class="row">
+          <div class="text-2xl font-bold lg:text-5xl">
+            <h3>Garansi</h3>
+            <h4>30-Day Money Back Guarantee</h4>
+          </div>
+          <div class="">
+            <img
+              class="mx-auto mt-8 w-32 lg:mb-24 lg:w-48"
+              src="assets/img/money-back.png"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End garansi Section -->
+    <!-- mengapa harus kami Section -->
+    <section id="services" class="services">
+      <div class="container mt-10">
+        <div class="row">
+          <div class="mb-8 text-center text-3xl font-bold lg:text-5xl">
+            <h3><span class="text-[#FFB707]">Mengapa</span> Harus Kami</h3>
+          </div>
+          <div
+            class="pl-9 lg:mx-20 lg:grid lg:grid-cols-3 lg:items-center lg:justify-between"
+          >
+            <div
+              class="h-96 w-96 bg-[#0E3065] lg:mt-8 lg:w-96"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+            >
+              <div class="mt-10">
+                <img
+                  src="assets/img/terpercaya.png"
+                  class="img-fluid mx-auto h-3/5 rounded-full"
+                  alt=""
+                />
+              </div>
+              <h4
+                class="mt-10 items-center justify-center text-center text-xl font-bold text-[#FFB707]"
+              >
+                Terpercaya
+              </h4>
+              <p
+                class="items-center justify-center px-20 text-center text-white lg:px-10"
+              >
+                <span class="font-bold text-[#FFB707]">Digunakan</span> Hingga
+                <span class="font-bold text-[#FFB707]">13.990+</span>
+                Entrepreneurs, UMKM, dan Brand
+                <span class="font-bold text-[#FFB707]"
+                  >Ternama di Indonesia</span
+                >
+              </p>
+            </div>
+
+            <div
+              class="mt-8 h-96 w-96 bg-[#0E3065] lg:w-96"
+              data-aos="zoom-in"
+              data-aos-duration="1500"
+            >
+              <div class="mt-10">
+                <img
+                  src="assets/img/team_support.png"
+                  class="img-fluid mx-auto h-3/5 rounded-full"
+                  alt=""
+                />
+              </div>
+              <h4
+                class="mt-10 items-center justify-center text-center text-xl font-bold text-[#FFB707]"
+              >
+                Team Support
+              </h4>
+              <p
+                class="items-center justify-center px-20 text-center text-white lg:px-10"
+              >
+                Technical Support Yang
+                <span class="font-bold text-[#FFB707]">Siap Membantu</span> Anda
+                Jika Ada Masalah teknis
+              </p>
+            </div>
+
+            <div
+              class="mt-8 h-96 w-96 bg-[#0E3065] lg:w-96"
+              data-aos="zoom-in"
+              data-aos-duration="2000"
+            >
+              <div class="mt-10">
+                <img
+                  src="assets/img/free_update.png"
+                  class="img-fluid mx-auto h-3/5 rounded-full"
+                  alt=""
+                />
+              </div>
+              <h4
+                class="mt-10 items-center justify-center text-center text-xl font-bold text-[#FFB707]"
+              >
+                Free Update
+              </h4>
+              <p
+                class="items-center justify-center px-20 text-center text-white lg:px-10"
+              >
+                Software Di Develop Langsung Oleh Team, Setiap Ada
+                <span class="font-bold text-[#FFB707]">Update Aplikasi</span>
+                Akan Langsung Diberikan
+                <span class="font-bold text-[#FFB707]">Secara Otomatis</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- faq section  -->
+    <section class="lg:mt-20">
+      <div class="min-h-sceen mx-auto max-w-screen-xl bg-white px-5">
+        <div class="flex flex-col items-center">
+          <h2 class="mt-5 text-5xl font-bold tracking-tight">FAQ</h2>
+          <p class="mt-3 text-xl text-neutral-500">Frequenty asked questions</p>
+        </div>
+        <div class="mx-auto mt-8 grid max-w-xl divide-y divide-neutral-200">
+          <div class="py-5">
+            <details class="group">
+              <summary
+                class="flex cursor-pointer list-none items-center justify-between font-medium"
+              >
+                <span> Apa itu WA Sender PRO ?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg
+                    fill="none"
+                    height="24"
+                    shape-rendering="geometricPrecision"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    viewBox="0 0 24 24"
+                    width="24"
+                  >
+                    <path d="M6 9l6 6 6-6"></path>
+                  </svg>
+                </span>
+              </summary>
+              <p class="group-open:animate-fadeIn mt-3 text-neutral-600">
+                Software Aplikasi yang digunakan untuk mengirim pesan promosi,
+                follow up masal dan auto reply secara otomatis ke pelanggan dan
+                calon buyer Anda lewat WhatsApp dengan sekali Scan
+              </p>
+            </details>
+          </div>
+          <div class="py-5">
+            <details class="group">
+              <summary
+                class="flex cursor-pointer list-none items-center justify-between font-medium"
+              >
+                <span> Apakah cocok untuk pemula ?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg
+                    fill="none"
+                    height="24"
+                    shape-rendering="geometricPrecision"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    viewBox="0 0 24 24"
+                    width="24"
+                  >
+                    <path d="M6 9l6 6 6-6"></path>
+                  </svg>
+                </span>
+              </summary>
+              <p class="group-open:animate-fadeIn mt-3 text-neutral-600">
+                Tool ini dibuat dengan interface user friendly (sangat mudah
+                digunakan) jadi Anda jangan khawatir tidak bisa dalam
+                penggunaanya, dan Anda bisa bertanya kapan saja dengan tim kami
+                sampai bisa.
+              </p>
+            </details>
+          </div>
+          <div class="py-5">
+            <details class="group">
+              <summary
+                class="flex cursor-pointer list-none items-center justify-between font-medium"
+              >
+                <span> Spec Hardware & Cara Penggunannya ?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg
+                    fill="none"
+                    height="24"
+                    shape-rendering="geometricPrecision"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    viewBox="0 0 24 24"
+                    width="24"
+                  >
+                    <path d="M6 9l6 6 6-6"></path>
+                  </svg>
+                </span>
+              </summary>
+              <p class="group-open:animate-fadeIn mt-3 text-neutral-600">
+                Setelah Anda Sukses melakukan pembelian, selanjutnya Anda segera
+                menginstallnya di PC/Laptop Windows Anda (spec ram 4gb, proc
+                Intel/Alg, minimal windows 8, browser google chrome) lakukan
+                install dan Anda bisa langsung menjalankannya. ( tidak bisa
+                digunakan di HP & Tablet) Di Member Area juga kami akan
+                menyediakan Video Panduan yang bisa Anda pelajari
+              </p>
+            </details>
+          </div>
+          <div class="py-5">
+            <details class="group">
+              <summary
+                class="flex cursor-pointer list-none items-center justify-between font-medium"
+              >
+                <span>Apakah Software Bersifat Lifetime ?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg
+                    fill="none"
+                    height="24"
+                    shape-rendering="geometricPrecision"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    viewBox="0 0 24 24"
+                    width="24"
+                  >
+                    <path d="M6 9l6 6 6-6"></path>
+                  </svg>
+                </span>
+              </summary>
+              <p class="group-open:animate-fadeIn mt-3 text-neutral-600">
+                Layanan Lifetime merupakan layanan mustahil, tapi disini kami
+                ada paket sekali bayar, jadi Anda bisa menggunakannya tanpa
+                perlu biaya perpanjangan bulanan/tahunan, tetapi tentunya selama
+                kebijakan Whatsapp masih membolehkan pihak kami menyatukan tool
+                wasender sesuai aturan WhatsApp utk pengembangan tools ini agar
+                terus bisa berfungsi.
+              </p>
+            </details>
+          </div>
+          <div class="py-5">
+            <details class="group">
+              <summary
+                class="flex cursor-pointer list-none items-center justify-between font-medium"
+              >
+                <span>Berapa kali saya bisa pindah device? </span>
+                <span class="transition group-open:rotate-180">
+                  <svg
+                    fill="none"
+                    height="24"
+                    shape-rendering="geometricPrecision"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    viewBox="0 0 24 24"
+                    width="24"
+                  >
+                    <path d="M6 9l6 6 6-6"></path>
+                  </svg>
+                </span>
+              </summary>
+              <p class="group-open:animate-fadeIn mt-3 text-neutral-600">
+                Semenjak Aplikasi Versi 13 Rilis Anda tetap mendapatkan update
+                dan sekali bayar, tetapi kami memberi batas maksimal pindah
+                device sebanyak 3 kali.
+              </p>
+            </details>
+          </div>
+          <div class="py-5">
+            <details class="group">
+              <summary
+                class="flex cursor-pointer list-none items-center justify-between font-medium"
+              >
+                <span> Apakah Aman Dari Banned? </span>
+                <span class="transition group-open:rotate-180">
+                  <svg
+                    fill="none"
+                    height="24"
+                    shape-rendering="geometricPrecision"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    viewBox="0 0 24 24"
+                    width="24"
+                  >
+                    <path d="M6 9l6 6 6-6"></path>
+                  </svg>
+                </span>
+              </summary>
+              <p class="group-open:animate-fadeIn mt-3 text-neutral-600">
+                Meski sudah dilengkapi dengan fitur anti-block dan anti-banned
+                yang cukup lengkap dan aman. Tetapi tidak ada tools pihak ke-3
+                yang Aman 100% dari banned WhatsApp. <br />
+                <br />Kami menyarankan Anda untuk tidak menggunakan nomor
+                WhatsApp pribadi dan menggunakan nomor yang siap menerima risiko
+                banned dari WhatsApp. Apabila Anda bermaksud untuk mengirimkan
+                pesan kepada nomor asing atau orang yang tidak berharap menerima
+                pesan dari Anda, kecuali jika itu adalah daftar konsumen /
+                pelanggan yang pernah berinteraksi sebelumnya dengan Anda.
+                <br />
+                <br />Bagaimana pun, mengirimkan pesan massal ke nomor asing
+                bukanlah aktivitas yang sepenuhnya dizinkan oleh WhatsApp.
+                Seluruh risiko yang timbul selama penggunaan merupakan
+                tanggungjawab masing-masing pengguna.
+              </p>
+            </details>
+          </div>
+          <div class="py-5">
+            <details class="group">
+              <summary
+                class="flex cursor-pointer list-none items-center justify-between font-medium"
+              >
+                <span> Apakah Ada Garansi Uang Kembali? </span>
+                <span class="transition group-open:rotate-180">
+                  <svg
+                    fill="none"
+                    height="24"
+                    shape-rendering="geometricPrecision"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    viewBox="0 0 24 24"
+                    width="24"
+                  >
+                    <path d="M6 9l6 6 6-6"></path>
+                  </svg>
+                </span>
+              </summary>
+              <p class="group-open:animate-fadeIn mt-3 text-neutral-600">
+                Jika WA Sender Pro tidak bisa dijalankan sama sekali dan seluruh
+                fiturnya tidak ada yang berfungsi sama sekali, Kami akan
+                mengembalikan dana Anda 100% jika setelah team support kami juga
+                gagal membatu Anda. Ketentuan garansi uang kembali maksimal 3
+                hari setelah tanggal pembelian produk.
+              </p>
+            </details>
+          </div>
+          <div class="py-5">
+            <details class="group">
+              <summary
+                class="flex cursor-pointer list-none items-center justify-between font-medium"
+              >
+                <span> Apakah Ada Versi Trial Yang Bisa Saya Coba ? </span>
+                <span class="transition group-open:rotate-180">
+                  <svg
+                    fill="none"
+                    height="24"
+                    shape-rendering="geometricPrecision"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    viewBox="0 0 24 24"
+                    width="24"
+                  >
+                    <path d="M6 9l6 6 6-6"></path>
+                  </svg>
+                </span>
+              </summary>
+              <p class="group-open:animate-fadeIn mt-3 text-neutral-600">
+                Sudah tidak ada lagi
+              </p>
+            </details>
+          </div>
+          <div class="py-5">
+            <details class="group">
+              <summary
+                class="flex cursor-pointer list-none items-center justify-between font-medium"
+              >
+                <span> Apa Bisa Digunakan Lebih Dari 1 Perangkat ?</span>
+                <span class="transition group-open:rotate-180">
+                  <svg
+                    fill="none"
+                    height="24"
+                    shape-rendering="geometricPrecision"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    viewBox="0 0 24 24"
+                    width="24"
+                  >
+                    <path d="M6 9l6 6 6-6"></path>
+                  </svg>
+                </span>
+              </summary>
+              <p class="group-open:animate-fadeIn mt-3 text-neutral-600">
+                WA Sender PRO hanya bisa diinstall pada 1 (satu) Perangkat saja,
+                Anda dapat melakukan pembelian lagi untuk mendapatkan lisensi
+                tambahan
+              </p>
+            </details>
+          </div>
+          <div class="py-5">
+            <details class="group">
+              <summary
+                class="flex cursor-pointer list-none items-center justify-between font-medium"
+              >
+                <span>
+                  Kapan Bisa Saya Berkomunikasi Dengan Support Untuk
+                  Bantuan?</span
+                >
+                <span class="transition group-open:rotate-180">
+                  <svg
+                    fill="none"
+                    height="24"
+                    shape-rendering="geometricPrecision"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    viewBox="0 0 24 24"
+                    width="24"
+                  >
+                    <path d="M6 9l6 6 6-6"></path>
+                  </svg>
+                </span>
+              </summary>
+              <p class="group-open:animate-fadeIn mt-3 text-neutral-600">
+                Untuk bantuan dapat dilakukan setiap hari pada jam kerja dan
+                pada waktu jeda diluar itu jika kami tidak sedang sibuk.
+              </p>
+            </details>
+          </div>
+        </div>
+      </div>
+      <div class="lg:-mt-52">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#0E3065"
+            fill-opacity="1"
+            d="M0,128L48,128C96,128,192,128,288,160C384,192,480,256,576,272C672,288,768,256,864,234.7C960,213,1056,203,1152,202.7C1248,203,1344,213,1392,218.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+          ></path>
+        </svg>
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <footer id="contact">
+      <div
+        class="-mb-32 h-5/6 border-2 border-solid border-[#0E3065] bg-[#0E3065]"
+      >
+        <div class="mt-10 bg-[#0E3065]">
+          <div
+            class="mx-auto flex h-12 w-56 flex-col items-center justify-center rounded-full bg-[#FFB707] text-center"
+          >
+            <a
+              href="https://api.whatsapp.com/send?phone=62882020014369&text=Halo%2C%20saya%20tertarik%20dengan%20produk%20ini.%20Terimakasih."
+              class="btn-get-started scrollto"
+              target="_blank"
+              ><i class="bi bi-whatsapp"></i
+              ><span style="padding-left: 15px">Konfirmasi Pembelian</span></a
+            >
+          </div>
+          <div
+            class="mx-auto mt-6 flex h-5/6 w-full flex-col items-center justify-center text-center"
+          >
+            <div class="mb-6 h-10 space-x-2">
+              <a href="#" class="w-8" target="_blank"
+                ><button
+                  type="button"
+                  data-te-ripple-init
+                  data-te-ripple-color="light"
+                  class="mb-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-lg transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+                  style="background-color: #1877f2"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="mx-auto h-4 w-4 items-center"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"
+                    />
+                  </svg></button
+              ></a>
+              <a href="#" class="w-64" target="_blank"
+                ><button
+                  type="button"
+                  data-te-ripple-init
+                  data-te-ripple-color="light"
+                  class="mb-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-lg transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+                  style="background-color: #1da1f2"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-4 w-4"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"
+                    />
+                  </svg></button
+              ></a>
+              <a href="#" target="_blank"
+                ><button
+                  type="button"
+                  data-te-ripple-init
+                  data-te-ripple-color="light"
+                  class="mb-2 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-lg transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+                  style="background-color: #ea4335"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-4 w-4"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M7 11v2.4h3.97c-.16 1.029-1.2 3.02-3.97 3.02-2.39 0-4.34-1.979-4.34-4.42 0-2.44 1.95-4.42 4.34-4.42 1.36 0 2.27.58 2.79 1.08l1.9-1.83c-1.22-1.14-2.8-1.83-4.69-1.83-3.87 0-7 3.13-7 7s3.13 7 7 7c4.04 0 6.721-2.84 6.721-6.84 0-.46-.051-.81-.111-1.16h-6.61zm0 0 17 2h-3v3h-2v-3h-3v-2h3v-3h2v3h3v2z"
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                    />
+                  </svg></button
+              ></a>
+            </div>
+
+            <div
+              class="mt-6 h-2/3 items-center justify-center px-7 text-center font-medium text-[#FFB707]"
+              data-aos="zoom-in"
+            >
+              <img
+                class="mx-auto h-72 rounded-xl"
+                src="assets/img/founder.png"
+                alt=""
+              />
+              <h3 class="mt-4 py-2 text-3xl font-extrabold">Zamhur Mustaqim</h3>
+              <p class="-mt-2 font-semibold">
+                Founder Digital Express Indonesia
+              </p>
+              <br />
+              <div
+                class="mb-8 flex items-center justify-center space-x-5 text-center text-white"
+              >
+                <a
+                  class="hover:opacity-75"
+                  href
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span class="sr-only"> Facebook </span>
+                  <svg
+                    class="mx-auto h-10 w-10"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </a>
+                <a
+                  class="hover:opacity-75"
+                  href="https://www.instagram.com/sajadaacademy/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span class="sr-only"> Instagram </span>
+                  <svg
+                    class="h-10 w-10"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div class="text-xl font-extrabold"><h2>Disclamer</h2></div>
+              <br />
+              <p class="lg:-mb-4">
+                Aplikasi keren ini semoga bisa bermanfaat untuk
+                <span class="font-bold">meningkatkan CRM</span>
+                di perusahaan Anda
+              </p>
+              <br />
+              <p>
+                aplikasi ini baik digunakan dengan cara yang
+                <span class="font-bold">aman</span>, bukan sembarangan sehingga
+                membuat orang lain merasa terganggu
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script type="module" src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
